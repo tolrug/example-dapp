@@ -58,7 +58,18 @@ This might not initially excite you but there are quite a number of use cases. A
 
 
 ## The Task
-Finally, the reading is almost finished. 
+Finally, the reading is almost finished.
+
+## Get started with the classic
+### `yarn start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.\
+
+### Description
+
 The task we have designed is to create a simple DApp (decentralised app) allows a user to connect to the website with Ethereum wallet. 
 
 Once connected, you will get access to the users public address. You can verify which tokens are owned by following the functions defined in the ERC20 token standard.
@@ -81,3 +92,7 @@ Task 3 requires you to display this metadata in a nice format. This may be card 
 
 ### Wrap-up
 Goodluck. Feel free to email me at aidan@mycelium.ventures.
+
+
+## Available Scripts
+
