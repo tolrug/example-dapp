@@ -92,7 +92,3 @@ Task 3 requires you to display this metadata in a nice format. This may be card 
 
 ### Wrap-up
 Goodluck. Feel free to email me at aidan@mycelium.ventures.
-
-
-## Available Scripts
-
