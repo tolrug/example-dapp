@@ -30,7 +30,7 @@ This is what we call DeFi (Decentralised Finance). At time of writing there is [
 This is Web3 Development.
 
 ## The Why
-Ethereum is the main layer 1 solution, the blockchain, we at Mycelium are building on. No one can turn off Ethereum and it's permissionless, meaning anyone who wants to can participate. You can write contracts that perform banking functions and you can write contracts that perform exchange functions on Ethereum. All the financial systems built on Ethereum are peer-to-peer and every transaction is transparent. There's no need for middlemen if you want finance.   
+The Ethereum blockchain is the main layer 1 solution we at Mycelium are building on. No one can turn off Ethereum and it's permissionless, meaning anyone who wants to can participate. You can write contracts that perform banking functions and you can write contracts that perform exchange functions on Ethereum. All the financial systems built on Ethereum are peer-to-peer and every transaction is transparent. There's no need for middlemen if you want finance.   
 
 I'm not here to sell you cryptocurrencies. But at Mycelium these are the things we are passionate about. 
 
@@ -62,18 +62,23 @@ This might not excite you right now, but there are quite a number of use cases f
 Nearly there.
 
 ## Get Started With the Classic
-### `yarn start`
+### `yarn && yarn start` or `npm run install && npm run start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 
+## Requirements
+You will need to [download](https://metamask.io/download.html) a browser extension called Metamask. Metamask is an Ethereum wallet browser extension which makes interacting with the Ethereum blockchain easier by making it extremely accessible. 
+
+[If you need help](https://support.xy.company/hc/en-us/articles/360020070514-How-to-download-and-use-MetaMask-Wallet)
+
 ### Description
 
 The task we have designed is to create a simple DApp (decentralised app) that allows a user to connect to the website with an Ethereum wallet. 
 
-Once connected, you will get access to the user's public address. You can verify which tokens are owned by following the functions defined in the ERC20 token standard.
+Once connected, you will get access to the user's public address. You can verify which tokens are owned by following the functions defined in the [ERC20 token standard](https://eips.ethereum.org/EIPS/eip-20).
 
 ### Task1
 The first task is almost complete for you.
@@ -84,10 +89,10 @@ These are the contract address's for each of the owned NFT's. There is a lot of 
 Feel free to ask questions, or if you get stuck: don't worry about it. The idea is you gain exposure to Web3 and the Ethereum ecosystem. Just don't give up on the first go. This will be a large topic of discussion later on.
 
 ### Task2
-As stated before, each of the returned addresses relates to another Ethereum smart contract. You can create instances of these contracts. These will be ERC721 contracts. ERC721 extends the ERC20 standard, with a few extra pieces of functionality (mainly the uniqueness of each token). Use this standard, along with the connected account, to identify the exact token ID owned by the user for each NFT. 
+As stated before, each of the returned addresses relates to another Ethereum smart contract. You can create instances of these contracts. These will be [ERC721 contracts](https://eips.ethereum.org/EIPS/eip-721). ERC721 extends the ERC20 standard, with a few extra pieces of functionality (mainly the uniqueness of each token). Use this standard, along with the connected account, to identify the exact token ID owned by the user for each NFT. 
 
 ### Task3
-Use the ERC721 functions to fetch the tokenURI. This link corresponds to the tokens metadata stored somewhere. This is most commonly stored on IPFS: a distributed file storage. But it is just as common to set up an API and database which serves the same purpose. It is simply a way to store more information about the NFT, since storing large data, such as images, on the blockchain is expensive. 
+Use the ERC721 functions to fetch the tokenURI. This link corresponds to the tokens metadata stored somewhere. This is most commonly stored on IPFS: a distributed file storage. But it is just as common to set up an API and database which serves the same purpose. It is simply a way to store more information about the NFT, since storing large data, such as images, on the blockchain is expensive.  A simple GET request on the tokenURI will fetch you what you need.
 
 Task 3 requires you to display this metadata in a nice format. It could be in the form of card images, along with NFT's name. This is really up to you (and it's your chance to impress).
 
